@@ -3,12 +3,12 @@ import {Link} from 'react-router-dom'
 
 
 
-const Layout =()=>{
+const Layout =(props)=>{
 
     return(
         <div>
             <div>
-            <Navbar bg="dark">
+            <Navbar bg="light">
             <Navbar.Brand>
                 <Link to ={'/home'}>Home</Link>
             </Navbar.Brand>
@@ -18,6 +18,9 @@ const Layout =()=>{
             <Navbar.Brand>Projects</Navbar.Brand>
             <Navbar.Brand>Contacts</Navbar.Brand>
             </Navbar>
+            </div>
+            <div>
+                {props.children}
             </div>
         </div>
         
