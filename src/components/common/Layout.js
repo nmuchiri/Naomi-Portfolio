@@ -1,5 +1,7 @@
 import {Link} from 'react-router-dom'
 
+import "./../css/Layout.css"
+
 
 
 
@@ -31,13 +33,17 @@ const Layout =(props)=>{
         </div>
 
         
-    <footer className="page-footer font-small blue pt-4">
-        <div className= "containter text-center">
+  <footer className="card-footer bg-info ">
+    <div>
+      <a href="https://coreui.io">CoreUI</a>
+      <span>&copy; 2020 creativeLabs.</span>
+    </div>
+    <div className="ml-auto">
+      <span>Powered by</span>
+      <a href="https://coreui.io">CoreUI</a>
+    </div>
+  </footer>
 
-        </div>
-  
-
-    </footer>
 
     </div>
         
