@@ -13,7 +13,7 @@ const Layout =(props)=>{
     return(
         <div>
             
-            <nav className ="navbar navbar-expand-sm bg-info">
+            <nav className ="navbar navbar-expand-sm">
                 <ul className ="navbar-nav">
                     <li className="nav-link">
                     <Link to ={'/home'}>Home</Link>
@@ -35,21 +35,23 @@ const Layout =(props)=>{
             {props.children}
         </div>
 
-        
-  <div className=" sidebar">
-    <div>
-      <a href="https://www.linkedin.com/in/nmuchiri/">LinkedIn<AiFillLinkedin></AiFillLinkedin></a>
-    </div>
-    <div>
-      <a href="mailto:muchiri.w.naomi@gmail.com">E-mail<FcAddressBook></FcAddressBook></a>
-    </div>
-    <div><FcCopyleft></FcCopyleft>
-    Naomi Muchiri 2021
-    </div>
-
-  </div>
-
-
+          
+  <footer className="footer">
+     
+      <ul>
+        <li>
+            <a href="https://www.linkedin.com/in/nmuchiri/">LinkedIn<AiFillLinkedin></AiFillLinkedin></a>
+        </li>
+        <li>
+            <a href="mailto:muchiri.w.naomi@gmail.com">E-mail<FcAddressBook></FcAddressBook></a>
+        </li>
+        <div><FcCopyleft></FcCopyleft>
+        Naomi Muchiri 2021
+        </div>
+    </ul>
+    
+  </footer>
+ 
     </div>
         
     )

@@ -1,18 +1,24 @@
-.nav{
-    background-color: palevioletred;
+body{
+    background-color: peachpuff;
 }
 
-
-
-.sidebar{
-    margin: 0;
-    padding: 0;
-    position:fixed;
-    float:left;
-    width: 200px;
-    height: 100%;
-    overflow: auto;
-    background-color: aquamarine;
-
+nav{
+    font-style: oblique;
+    color: bisque;
 }
 
+footer {
+    position: fixed;
+    height: 75px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: small;
+}
+
+li {
+    display: inline;
+    margin: 5px;
+    padding: 5px;
+    
+}
