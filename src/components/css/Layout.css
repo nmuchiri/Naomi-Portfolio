@@ -8,3 +8,9 @@
   bottom: 0;
   width: 100%;
 }
+
+.column{
+    float:left;
+    width: 33.33%;
+
+}

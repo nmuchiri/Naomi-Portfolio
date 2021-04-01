@@ -2,6 +2,9 @@ import {Link} from 'react-router-dom'
 
 import "./../css/Layout.css"
 
+import {AiFillLinkedin } from "react-icons/ai"
+import { FcAddressBook, FcCopyleft } from "react-icons/fc";
+
 
 
 
@@ -33,16 +36,18 @@ const Layout =(props)=>{
         </div>
 
         
-  <footer className="card-footer bg-info ">
+  <div className="bg-info column">
     <div>
-      <a href="https://coreui.io">CoreUI</a>
-      <span>&copy; 2020 creativeLabs.</span>
+      <a href="https://www.linkedin.com/in/nmuchiri/">LinkedIn<AiFillLinkedin></AiFillLinkedin></a>
     </div>
-    <div className="ml-auto">
-      <span>Powered by</span>
-      <a href="https://coreui.io">CoreUI</a>
+    <div>
+      <a href="mailto:muchiri.w.naomi@gmail.com">E-mail<FcAddressBook></FcAddressBook></a>
     </div>
-  </footer>
+    <div><FcCopyleft></FcCopyleft>
+    Naomi Muchiri 2021
+    </div>
+
+  </div>
 
 
     </div>
