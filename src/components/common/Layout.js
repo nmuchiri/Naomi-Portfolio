@@ -36,7 +36,7 @@ const Layout =(props)=>{
         </div>
 
         
-  <div className="bg-info column">
+  <div className=" sidebar">
     <div>
       <a href="https://www.linkedin.com/in/nmuchiri/">LinkedIn<AiFillLinkedin></AiFillLinkedin></a>
     </div>
