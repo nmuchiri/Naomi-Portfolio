@@ -1,5 +1,5 @@
-import Navbar from 'react-bootstrap/Navbar'
 import {Link} from 'react-router-dom'
+
 
 
 
@@ -7,22 +7,39 @@ const Layout =(props)=>{
 
     return(
         <div>
-            <div>
-            <Navbar bg="light">
-            <Navbar.Brand>
-                <Link to ={'/home'}>Home</Link>
-            </Navbar.Brand>
-            <Navbar.Brand>
-            <Link to ={'/about'}>About</Link>
-                </Navbar.Brand>
-            <Navbar.Brand>Projects</Navbar.Brand>
-            <Navbar.Brand>Contacts</Navbar.Brand>
-            </Navbar>
-            </div>
-            <div>
-                {props.children}
-            </div>
+            
+            <nav className ="navbar navbar-expand-sm bg-info">
+                <ul className ="navbar-nav">
+                    <li className="nav-link">
+                    <Link to ={'/home'}>Home</Link>
+                    </li>
+
+                    <li className="nav-link">
+                        <Link to ={'/about'}>About</Link>
+                    </li>
+
+                    <li className="nav-link">
+                        <Link to ={'/projects'}>Projects</Link>
+                    </li>
+                    <li className="nav-link">
+                        <Link to ={'/contacts'}>Contacts</Link>
+                    </li>
+                </ul>
+            </nav>
+        <div>
+            {props.children}
         </div>
+
+        
+    <footer className="page-footer font-small blue pt-4">
+        <div className= "containter text-center">
+
+        </div>
+  
+
+    </footer>
+
+    </div>
         
     )
 
