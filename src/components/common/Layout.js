@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom'
-import React, { useState, useEffect } from 'react'
+import React, { useState} from 'react'
 
 import "./../css/Layout.css"
 
@@ -12,10 +12,10 @@ import { FcAddressBook, FcCopyleft } from "react-icons/fc";
 const Layout =(props)=>{
 
     // use state to change background color of each component
-    const [color, setColor]= useState('#282c34')
+    const [color, setColor]= useState('#FF5733')
 
     return(
-        <div>
+        <div style= {{background: color}}>
             
             <nav className ="navbar">
                 <ul>
@@ -24,7 +24,7 @@ const Layout =(props)=>{
                     </li>
 
                     <li className="nav-link">
-                        <Link to ={'/about'}>About</Link>
+                        <Link to ={'/about'} >About</Link>
                     </li>
 
                     <li className="nav-link">
@@ -42,17 +42,17 @@ const Layout =(props)=>{
           
   <footer className="footer">
      
-      <ul>
+      {/* <ul>
         <li>
             <a href="https://www.linkedin.com/in/nmuchiri/">LinkedIn<AiFillLinkedin></AiFillLinkedin></a>
         </li>
         <li>
             <a href="mailto:muchiri.w.naomi@gmail.com">E-mail<FcAddressBook></FcAddressBook></a>
-        </li>
+        </li> */}
         <div><FcCopyleft></FcCopyleft>
         Naomi Muchiri 2021
         </div>
-    </ul>
+    {/* </ul> */}
     
   </footer>
  

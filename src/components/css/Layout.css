@@ -1,16 +1,15 @@
 body{
-    /* background-color: aquamarine; */
-    height: 100%;
+  height: 500px;
+  background-color: aqua;
+    
 }
 
-nav{
+.navbar{
     font-style: oblique;
-    color: bisque;
-    float: right;
+    /* float: left; */
 }
 
 footer {
-
     position: fixed;
     height: 50px;
     bottom: 0;
@@ -20,8 +19,32 @@ footer {
 }
 
 li {
+  float: left;
     display: inline;
     margin: 5px;
     padding: 5px;
     
 }
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+    /* Styles */
+    body {
+      background-color: lightgoldenrodyellow !important;
+    }
+  }
+  /* Large screens ----------- */
+  @media only screen and (min-width: 1824px) {
+    /* Styles */
+    body {
+      background-color: lightcoral !important;
+    }
+  }
+
+  /* Smartphones (portrait) ----------- */
+  @media only screen and (max-width: 320px) {
+    /* Styles */
+    body {
+      background-color: lightcyan !important;
+    }
+  }
