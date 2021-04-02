@@ -1,4 +1,5 @@
 import {Link} from 'react-router-dom'
+import React, { useState, useEffect } from 'react'
 
 import "./../css/Layout.css"
 
@@ -9,6 +10,9 @@ import { FcAddressBook, FcCopyleft } from "react-icons/fc";
 
 
 const Layout =(props)=>{
+
+    // use state to change background color of each component
+    const [color, setColor]= useState('#282c34')
 
     return(
         <div>
