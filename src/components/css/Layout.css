@@ -1,6 +1,6 @@
 body{
-  height: 500px;
-  background-color: aqua;
+  height: 100%;
+ 
     
 }
 
@@ -9,11 +9,11 @@ body{
     /* float: left; */
 }
 
-footer {
-    position: fixed;
-    height: 50px;
-    bottom: 0;
-    width: 100%;
+.footer {
+    
+  background-color: aqua;
+    display: block;
+    padding: 20px;
     text-align: center;
     font-size: small;
 }
