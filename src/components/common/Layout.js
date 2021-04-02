@@ -13,8 +13,8 @@ const Layout =(props)=>{
     return(
         <div>
             
-            <nav className ="navbar navbar-expand-sm">
-                <ul className ="navbar-nav">
+            <nav className ="navbar">
+                <ul>
                     <li className="nav-link">
                     <Link to ={'/home'}>Home</Link>
                     </li>

@@ -1,4 +1,6 @@
-// import Image from 'react-bootstrap/Image'
+import {Link} from 'react-router-dom'
+
+// import css
 import "./css/Home.css";
 
 
@@ -6,13 +8,25 @@ const Home =()=>{
 
 
 return (
-    <div>
+    <div className="container"
+    style={{
+        backgroundImage: "linear-gradient(to right,#ff8733 0%,#fa1100 100%)",
+        // height: 100,
+        // marginTop: 10,
+        // textAlign: "center"
+      }}
+    >
         <div>
-            <h1>Welcome to my amazing portfolio</h1>
+            <h1>Naomi Muchiri</h1>
         </div>
-        <div className= "image">
-            <img src="https://images.unsplash.com/photo-1612170482263-b7e393c4e87f?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" roundedCircle />
+        <div className="intro">
+            <p >
+            I am an entrepreneurial individual with strong skills in full-stack software engineering.
+            I bring over ten years' experience in customer facing roles through work in retail and performing arts. In
+            addition, I am a divergent and quick thinker who can bring a creative bend to any enterprise.
+            </p>
         </div>
+        <button type="submit"><Link to ={'/projects'}>My Projects</Link></button>
     </div>
 )
 

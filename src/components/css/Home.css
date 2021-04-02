@@ -1,8 +1,32 @@
+
+.container{
+    
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+
+
+}
 h1{
     text-align: center;
 }
-.image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.intro{
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 20px;   
+}
+
+button{
+    border: white;
+    height: 50px;
+    width: 150px;
+background-color: aqua;
+text-align: center;
+display: inline-block;
+font-size: large;
+border-radius: 8px;
+
 }
