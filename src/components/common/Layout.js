@@ -35,7 +35,8 @@ const Layout =(props)=>{
                     </li>
                 </ul>
             </nav>
-        <div>
+            {/* the part between the nav and the footer */}
+        <div className= "section">
             {props.children}
         </div>
 
