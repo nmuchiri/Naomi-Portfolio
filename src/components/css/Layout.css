@@ -1,13 +1,20 @@
-
-
-.section{
-  display: flex;
+body{
   height: 100%;
-  flex: 1;
+
 }
+
+ .section{
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+ 
+} 
 
 .navbar{
     font-style: oblique;
+    background-color: aqua;
     /* float: left; */
 }
 

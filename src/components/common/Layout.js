@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom'
-import React, { useState} from 'react'
+// import React, { useState} from 'react'
 
 import "./../css/Layout.css"
 
@@ -12,10 +12,10 @@ import { FcAddressBook, FcCopyleft } from "react-icons/fc";
 const Layout =(props)=>{
 
     // use state to change background color of each component
-    const [color, setColor]= useState('#FF5733')
+    // const [color, setColor]= useState('#00FFFF')
 
     return(
-        <div style= {{background: color}}>
+        <div>
             
             <nav className ="navbar">
                 <ul>
