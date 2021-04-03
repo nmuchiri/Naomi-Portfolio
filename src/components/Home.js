@@ -9,12 +9,7 @@ const Home =()=>{
 
 return (
     <div className="container">
-        <div 
-        style={{
-            backgroundImage: "linear-gradient(to right,#2193b0 0%,#6dd5ed 100%)",
-            textAlign: "center"
-          }}
-        >
+        <div>
             <div>
                 <h1>Naomi Muchiri</h1>
             </div>
