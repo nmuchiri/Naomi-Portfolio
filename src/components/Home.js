@@ -1,7 +1,7 @@
-import {Link} from 'react-router-dom'
+import {Link} from "react-router-dom"
 
 // import css
-import "./css/Home.css";
+import "./css/Home.css"
 
 
 const Home =()=>{
