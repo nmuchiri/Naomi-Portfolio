@@ -1,13 +1,16 @@
 import {Link} from "react-router-dom"
 
+
 import "./../css/Layout.css"
 import { FcCopyleft } from "react-icons/fc"
 
-
     const Layout =(props)=>{
+
+
 
         return(
             <div> 
+
                 <nav className ="navbar">
                     <ul>
                         <li className="nav-link" >

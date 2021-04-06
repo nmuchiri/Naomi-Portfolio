@@ -3,30 +3,32 @@ import {Link} from "react-router-dom"
 // import css
 import "./css/Home.css"
 
+import {Col, Container, Image, Row} from 'react-bootstrap'
+
 
 const Home =()=>{
 
 
 return (
-    <div className="container">
+    <Container>
         <div>
             <div>
                 <h1>Naomi Muchiri</h1>
             </div>
-            <div className="intro">
-                <p >
-                    I am an entrepreneurial individual with strong skills in full-stack software engineering.
-                    I bring over ten years' experience in customer facing roles through work in retail and performing arts. In
-                    addition, I am a divergent and quick thinker who can bring a creative bend to any enterprise.
-                </p>
-            </div>
+            <Container fluid>
+            <Row>
+                <Col xs={6} lg={4} >
+                <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk57hHGJuVJbFVA1F_fM6KuDmNf7KeNkLQqQ&usqp=CAU" roundedCircle />
+                </Col>
+            </Row>
+            </Container>
         </div>
         <br></br>
-        <div>
+        <Row>
             <button type="submit"><Link to ={'/projects'}>My Projects</Link></button>
-        </div> 
+        </Row> 
         <br></br>
-    </div>
+    </Container>
 )
 
 }
