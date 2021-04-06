@@ -27,7 +27,7 @@ const Projects=() =>{
         This is a humorous and whimsical app I made using Vanilla JS to celebrate April as the national humour month.
         
         </p>
-        <Row className="row">
+        <Row className="project-row">
         <div>
                 <a href="https://drive.google.com/file/d/1toWlS6dtNsGZZ6w-53z2db8c9sEfg5nf/view?usp=sharing" target = "blank" rel ="noopener noreferrer"
                     ><button>

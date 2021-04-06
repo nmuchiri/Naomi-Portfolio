@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp build/index.html build/200.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -41,5 +41,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "git-scripts": "^0.4.3",
+    "surge": "^0.22.1"
+  }, 
+  "git": {
+    "scripts": {
+      "pre-push": "surge --project ./ naomi-muchiri.surge.sh"
+    }
   }
 }

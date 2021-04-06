@@ -17,7 +17,7 @@ return (
             </div>
             <Container fluid>
             <Row>
-                <Col xs={6} lg={4} >
+                <Col xs={12} lg={4} >
                 <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk57hHGJuVJbFVA1F_fM6KuDmNf7KeNkLQqQ&usqp=CAU" roundedCircle />
                 </Col>
             </Row>
