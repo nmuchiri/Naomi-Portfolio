@@ -10,7 +10,7 @@ const Home =()=>{
 
 
 return (
-    <Container>
+    <Container fluid className="container">
         <div>
             <div>
                 <h1>Naomi Muchiri</h1>

@@ -1,12 +1,14 @@
 // import css
+import { Container, Row } from "react-bootstrap";
 import "./css/Projects.css";
 
 const Projects=() =>{
     return(
-    <div className="container">
+    <Container fluid className="container">
       <div>
         <h1>Projects Page</h1>
       </div>
+
       <div>
         <h3>Random Insult Generator</h3>
         <a href="https://nmuchiri.github.io/Random-Insult-Generator/"
@@ -19,11 +21,27 @@ const Projects=() =>{
             width="300" height="300"
             />
         </a>
+        </div>
+
         <p>
         This is a humorous and whimsical app I made using Vanilla JS to celebrate April as the national humour month.
         
         </p>
-      </div>
+        <Row className="row">
+        <div>
+                <a href="https://drive.google.com/file/d/1toWlS6dtNsGZZ6w-53z2db8c9sEfg5nf/view?usp=sharing" target = "blank" rel ="noopener noreferrer"
+                    ><button>
+                    See Project
+                    </button></a>
+            </div> 
+            <div>
+                <a href="https://drive.google.com/file/d/1toWlS6dtNsGZZ6w-53z2db8c9sEfg5nf/view?usp=sharing" target = "blank" rel ="noopener noreferrer"
+                    ><button>
+                    Code
+                    </button></a>
+           </div> 
+      </Row>
+
       <div>
       <h3>Rick & Morty</h3>
         <a href="https://rickandmortyshowapp.herokuapp.com/"
@@ -57,8 +75,9 @@ const Projects=() =>{
         </p>
       </div>
     
-    </div>
+    </Container>    
+
     )
-    }
+}
     
-    export default Projects
+export default Projects

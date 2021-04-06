@@ -22,7 +22,7 @@ const About =()=>{
                 </p>
             </div>
             <div>
-                <a href="https://drive.google.com/file/d/1toWlS6dtNsGZZ6w-53z2db8c9sEfg5nf/view?usp=sharing"
+                <a href="https://drive.google.com/file/d/1toWlS6dtNsGZZ6w-53z2db8c9sEfg5nf/view?usp=sharing" target = "blank" rel ="noopener noreferrer"
                     ><button>
                     My Resume
                     </button></a>
