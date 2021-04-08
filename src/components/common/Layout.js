@@ -32,7 +32,10 @@ import { FcCopyleft } from "react-icons/fc"
             <div >
                 {props.children}
             </div>
-            
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <footer className="footer">
                     <div><FcCopyleft></FcCopyleft>
                     Naomi Muchiri 2021
