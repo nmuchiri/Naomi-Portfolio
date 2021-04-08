@@ -13,7 +13,7 @@
   height: 20px;
   padding: 50px 20px 20px 20px;
   width: 100%;
-  /* position:fixed; */
+  position:fixed;
   bottom: 0;
   left: 0;
   background-color: aqua;
@@ -35,7 +35,7 @@ li {
 @media (min-width: 1224px) {
     /* Styles */
     body {
-      background-color: lightgoldenrodyellow !important;
+      background-color: white !important;
     }
   }
   /* Large screens ----------- */

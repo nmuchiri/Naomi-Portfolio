@@ -29,13 +29,13 @@ const Projects=() =>{
         </p>
         <Row className="project-row">
         <div>
-                <a href="https://drive.google.com/file/d/1toWlS6dtNsGZZ6w-53z2db8c9sEfg5nf/view?usp=sharing" target = "blank" rel ="noopener noreferrer"
+                <a href="https://nmuchiri.github.io/Random-Insult-Generator/" target = "blank" rel ="noopener noreferrer"
                     ><button>
                     See Project
                     </button></a>
             </div> 
             <div>
-                <a href="https://drive.google.com/file/d/1toWlS6dtNsGZZ6w-53z2db8c9sEfg5nf/view?usp=sharing" target = "blank" rel ="noopener noreferrer"
+                <a href="https://github.com/nmuchiri/Random-Insult-Generator" target = "blank" rel ="noopener noreferrer"
                     ><button>
                     Code
                     </button></a>
@@ -58,6 +58,21 @@ const Projects=() =>{
           This is a fun Rick and Morty app created using Node JS 
         </p>
       </div>
+
+      <Row className="project-row">
+        <div>
+                <a href= "https://rickandmortyshowapp.herokuapp.com/" target = "blank" rel ="noopener noreferrer"
+                    ><button>
+                    See Project
+                    </button></a>
+            </div> 
+            <div>
+                <a href="https://github.com/nmuchiri/Project-2" target = "blank" rel ="noopener noreferrer"
+                    ><button>
+                    Code
+                    </button></a>
+           </div> 
+      </Row>
       <div>
       <h3>Fomo-Nomo</h3>
         <a href="https://fomo-nomo-frontend.surge.sh/"
@@ -74,6 +89,21 @@ const Projects=() =>{
           This app is created using React on the frontend and Node JS on the backend. It allows users to search for online events happening around them. 
         </p>
       </div>
+
+      <Row className="project-row">
+        <div>
+                <a href= "https://fomo-nomo-frontend.surge.sh/" target = "blank" rel ="noopener noreferrer"
+                    ><button>
+                    See Project
+                    </button></a>
+            </div> 
+            <div>
+                <a href="https://github.com/SFX818/Team-5-frontend" target = "blank" rel ="noopener noreferrer"
+                    ><button>
+                    Code
+                    </button></a>
+           </div> 
+      </Row>
     
     </Container>    
 
