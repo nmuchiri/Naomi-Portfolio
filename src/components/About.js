@@ -12,7 +12,7 @@ const About =()=>{
     return(
         <div className="container">
             <div>
-                <h1>This is all about me</h1>
+                <h1>About Me</h1>
             </div>
             <div className="intro">
                 <p >

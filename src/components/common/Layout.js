@@ -25,7 +25,7 @@ import { FcCopyleft } from "react-icons/fc"
                             <Link to ={'/projects'}>Projects</Link>
                         </li>
                         <li className="nav-link">
-                            <Link to ={'/contact'}>Contacts</Link>
+                            <Link to ={'/contact'}>Contact</Link>
                         </li>
                     </ul>
                 </nav>

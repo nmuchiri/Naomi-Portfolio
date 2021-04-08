@@ -24,5 +24,8 @@ button{
 text-align: center;
 font-size: large;
 border-radius: 8px;
-
 }
+
+img {
+    border-radius: 50%;
+  }

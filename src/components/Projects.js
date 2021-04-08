@@ -6,7 +6,7 @@ const Projects=() =>{
     return(
     <Container fluid className="container">
       <div>
-        <h1>Projects Page</h1>
+        <h1>Engineering Projects</h1>
       </div>
 
       <div>
@@ -43,20 +43,20 @@ const Projects=() =>{
       </Row>
 
       <div>
-      <h3>Rick & Morty</h3>
-        <a href="https://rickandmortyshowapp.herokuapp.com/"
-           alt="_hats"
-           >
-          <img
-            id="rick"
-            src="https://resizing.flixster.com/sBJxQAwEVsgCLpbNJkqP0tbphIg=/fit-in/1152x864/v1.bjsyNTA0NTYyO2o7MTg3NzY7MTIwMDsyNTAwOzE4NzU"
-            alt="rick and morty"
-            width="300" height="300"
-            />
-        </a>
-        <p>
-          This is a fun Rick and Morty app created using Node JS 
-        </p>
+        <h3>Rick & Morty</h3>
+            <a href="https://rickandmortyshowapp.herokuapp.com/"
+            alt="_rick-morty"
+            >
+            <img
+                id="rick"
+                src="https://resizing.flixster.com/sBJxQAwEVsgCLpbNJkqP0tbphIg=/fit-in/1152x864/v1.bjsyNTA0NTYyO2o7MTg3NzY7MTIwMDsyNTAwOzE4NzU"
+                alt="rick and morty"
+                width="300" height="300"
+                />
+            </a>
+            <p>
+            This is a fun Rick and Morty app created using Node JS 
+            </p>
       </div>
 
       <Row className="project-row">
@@ -73,10 +73,10 @@ const Projects=() =>{
                     </button></a>
            </div> 
       </Row>
+
       <div>
-      <h3>Fomo-Nomo</h3>
+        <h3>Fomo-Nomo</h3>
         <a href="https://fomo-nomo-frontend.surge.sh/"
-           alt="fomo-nomo"
            >
           <img
             id="fomo"
